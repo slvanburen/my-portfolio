@@ -1,0 +1,248 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Header */
+header h1 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+header p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+header a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Social Links */
+.social-links a {
+    margin: 0 0.5rem;
+    color: #0073e6;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.social-links a i {
+    margin-right: 5px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Links */
+nav {
+    margin: 1.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 1rem;
+    font-size: 1rem;
+    text-transform: lowercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0073e6;
+}
+
+/* Main Content */
+main {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+main p {
+    margin: 1rem 0;
+}
+
+main ul {
+    margin-left: 1.5rem;
+}
+
+main ul li {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.project {
+    margin-bottom: 20px; /* Adds space below each project */
+    padding: 10px;       /* Adds internal spacing within the project box */
+    border: 1px solid #ddd; /* Optional: Adds a border to separate projects visually */
+    border-radius: 8px; /* Optional: Smooths the corners of the border */
+    background-color: #f9f9f9; /* Optional: Adds a background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+}
+#papers h2 {
+    margin-bottom: 30px; /* Adjust value to add space below the heading */
+}
+/* Teaching Section */
+#teaching {
+    text-align: center; /* Center-align all text */
+    padding: 2rem 1rem;
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center the section on the page */
+}
+
+/* Headings */
+#teaching h1 {
+    font-size: 2rem; /* Large heading for "UC Davis" */
+    color: #300;
+    margin-bottom: 1rem; /* Space below heading */
+}
+
+#teaching h2 {
+    font-size: 1.5rem; /* Subheading for roles */
+    color: #555;
+    margin-bottom: 2rem; /* Space below subheading */
+}
+
+/* Individual Classes */
+.teaching-item {
+    margin-bottom: 2.5rem; /* Space between roles (e.g., Teaching Assistant and Guest Lecture) */
+}
+
+.teaching-item .class {
+    margin-bottom: 1.5rem; /* Space between individual classes */
+}
+
+.teaching-item .class strong {
+    font-size: 1.2rem; /* Emphasize class names */
+    color: #333;
+}
+
+.teaching-item .class .date {
+    font-style: italic;
+    font-size: 1rem; /* Dates styled smaller */
+    color: #666;
+    margin-top: 0.3rem; /* Space above date */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem; /* Larger name size */
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+header nav {
+    margin: 1.5rem 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 1rem;
+    font-size: 1rem;
+    text-transform: lowercase;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #0073e6;
+}
+
+/* Personal Section */
+#personal {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left; /* Aligns text to the left for better readability */
+}
+
+#personal h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    text-align: center; /* Center-align section heading */
+}
+
+#personal p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+#personal ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 1.5rem; /* Add spacing on the left for bullets */
+    line-height: 1.8; /* Increase line height for readability */
+}
+
+#personal ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
